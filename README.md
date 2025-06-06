@@ -68,15 +68,22 @@ Edit these values directly in the script where the Typst header block is written
 
 ---
 
-## Tip
+## Tip: Font List Customization
+Most LLMs can easily help you sort a full `typst_fonts.txt` list into categories like: **Sans Serif**, **Serif**, **Mono / Coding**, **Handwritten**, **Other / Symbol / Math**
 
-Most LLMs are easily capable of sorting typst_fonts.txt into sans serif, serif, mono fonts, handwritten fonts and others. Outcomment the font list creation in the script like so
+---
+
+### Skip Automatic Font Listing
+
+If you already have a curated list or want to define your own fonts manually, simply comment out the automatic font detection in the script like this:
 
 ```bash
 # Step 1: Generate font list
 # echo "Generating font list..."
 # typst fonts > typst_fonts.txt
 ```
+
+This way, the script won’t overwrite your custom `typst_fonts.txt`.
 
 ---
 
