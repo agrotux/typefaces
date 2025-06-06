@@ -70,7 +70,13 @@ Edit these values directly in the script where the Typst header block is written
 
 ## Tip
 
-Most LLMs are easily capable of sorting typst_fonts.txt into sans serif, serif, mono fonts, handwritten fonts and others.
+Most LLMs are easily capable of sorting typst_fonts.txt into sans serif, serif, mono fonts, handwritten fonts and others. Outcomment the font list creation in the script like so
+
+```bash
+# Step 1: Generate font list
+# echo "Generating font list..."
+# typst fonts > typst_fonts.txt
+```
 
 ---
 

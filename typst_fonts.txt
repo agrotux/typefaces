@@ -1,181 +1,176 @@
-Alegreya
 Alegreya Sans
 Aller
 Alte DIN 1451 Mittelschrift
 Alte DIN 1451 Mittelschrift gepraegt
-Andada Pro
-Annie Use Your Telescope
-Antropos
 Aptos
 Aptos Display
-Aptos Mono
-Aptos Serif
-Architects Daughter
 Arial
 Arial Unicode MS
 Arimo
-Baar Goetheanis
-Baar Metanoia
-Baar Philos
-Baar Sophia
-Baar Zeitgeist
 Barlow
-Baskervville
-Berenis ADF Pro
-Berenis ADF Pro Math
-Berner Basisschrift 1
-Berner Basisschrift 2
 Bitstream Vera Sans
-Bitstream Vera Sans Mono
-Bitstream Vera Serif
 Bitter
 Cabin
-Cabin Sketch
 Calibri
-Cambria
-CamingoCode
 Cantarell
-Cardo
-Caveat
-Charis SIL
-Chilanka
-CMU Concrete
-CMU Sans Serif
-CMU Serif
-Coconat
 Comfortaa
 Comic Sans MS
-Consolas
-Cormorant Garamond
-Courgette
-Courier New
-Courier Prime
-Cousine
-Covered By Your Grace
-Crimson Pro
-Crimson Text
 Cuprum
-Dancing Script
-DejaVu Math TeX Gyre
 DejaVu Sans
-DejaVu Sans Mono
-DejaVu Serif
 DM Sans 9pt
-EB Garamond
 Exo
 Exo 2.0
-Fantasque Sans Mono
 Figtree
-Fira Code
-Fira Mono
 Fira Sans
-Florentia
-FontAwesome
 FreeSans
-FreeSerif
-Gentium Book Plus
-Gentium Plus
-Georgia
-GFS Artemisia
-GFS Didot
 GFS Neohellenic
 Gillius ADF
 Gillius ADF No2
-Gloria Hallelujah
-Great Vibes
-Handlee
 Helvetica Neue
-IBM Plex Mono
 IBM Plex Sans
-IBM Plex Serif
-Inconsolata
-Indie Flower
 Inter
 Inter Display
-Itim
 Josefin Sans
-Josefin Slab
-Journal
-Julee
-Junicode
-Kalam
 Karla
-Karumbi
 Lato
-Lekton
 Lexend
-Libertinus Serif
 Libre Franklin
 Linux Biolinum
-Linux Biolinum Keyboard
-Linux Libertine
-Linux Libertine Display
-Linux Libertine Initials
-Linux Libertine Mono
-Londrina Sketch
-Lora
-Merienda
-Merriweather
-Merriweather Sans
-Monaco
-Monaspace Radon Var
 Montserrat
 Mulish
-New Computer Modern
-New Computer Modern Math
-Norasi
-Note this
-Noto Mono
 Noto Sans
-Noto Sans Mono
-Noto Serif
-NovaMono
 Nunito
 Nunito Sans 12pt
 Open Sans
 OpenDyslexic
 Ortica Angular
 Ortica Linear
-Patrick Hand
-Patrick Hand SC
-Playfair Display
-PT Mono
 PT Sans
-PT Serif
-Purisa
 Raleway
-Rec Mono Casual
 Recursive Sans Linear
 Reforma 1918
 Reforma 1969
 Reforma 2018
 Roboto
-Roboto Mono
-Roboto Serif
-Ronzino
 Rubik
-Schoolbell
-Shadows Into
-Sinistre
-Source Code Pro
 Source Sans 3
+TeX Gyre Heros
+Ubuntu
+Verdana
+Work Sans
+Alegreya
+Andada Pro
+Antropos
+Aptos Serif
+Baskervville
+Berenis ADF Pro
+Bitstream Vera Serif
+Cardo
+Charis SIL
+CMU Concrete
+CMU Serif
+Cormorant Garamond
+Crimson Pro
+Crimson Text
+DejaVu Serif
+EB Garamond
+Florentia
+FreeSerif
+Gentium Book Plus
+Gentium Plus
+Georgia
+GFS Artemisia
+GFS Didot
+IBM Plex Serif
+Josefin Slab
+Junicode
+Libertinus Serif
+Linux Libertine
+Linux Libertine Display
+Lora
+Merriweather
+New Computer Modern
+New Computer Modern Math
+Norasi
+Noto Serif
+Playfair Display
+PT Serif
+Roboto Serif
 Source Serif 4
 Spectral
-Standard Symbols PS
-Sweater School
-TeX Gyre Adventor
 TeX Gyre Bonum
-TeX Gyre Heros
 TeX Gyre Pagella
 TeX Gyre Schola
 TeX Gyre Termes
 Times New Roman
-Ubuntu
-Ubuntu Mono
-Verdana
-Veteran Typewriter
 Vollkorn
+Aptos Mono
+Bitstream Vera Sans Mono
+CamingoCode
+CMU Sans Serif
+Consolas
+Courier New
+Courier Prime
+Cousine
+DejaVu Sans Mono
+Fantasque Sans Mono
+Fira Code
+Fira Mono
+IBM Plex Mono
+Inconsolata
+Lekton
+Linux Biolinum Keyboard
+Linux Libertine Mono
+Monaco
+Monaspace Radon Var
+Noto Mono
+Noto Sans Mono
+NovaMono
+PT Mono
+Rec Mono Casual
+Source Code Pro
+Ubuntu Mono
+Veteran Typewriter
+Annie Use Your Telescope
+Architects Daughter
+Baar Goetheanis
+Baar Metanoia
+Baar Philos
+Baar Sophia
+Baar Zeitgeist
+Berner Basisschrift 1
+Berner Basisschrift 2
+Cabin Sketch
+Caveat
+Chilanka
+Covered By Your Grace
+Courgette
+Dancing Script
+Gloria Hallelujah
+Great Vibes
+Handlee
+Indie Flower
+Itim
+Journal
+Julee
+Kalam
+Karumbi
+Londrina Sketch
+Merienda
+Patrick Hand
+Patrick Hand SC
+Purisa
+Schoolbell
+Shadows Into
+Sweater School
 Waltograph
 Weoqios Vintage
-Work Sans
 Zeyada
+Berenis ADF Pro Math
+DejaVu Math TeX Gyre
+FontAwesome
+Linux Libertine Initials
+Note this
+Ronzino
+Sinistre
+Standard Symbols PS
