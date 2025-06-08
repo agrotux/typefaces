@@ -14,11 +14,10 @@ cat << 'EOF' > "$OUTPUT_FILE"
 #set page(columns: 1, numbering: "1/1", number-align: right)
 #set heading(numbering: "1.1")
 #set par(justify: false)
+#set text(size: 10pt)
+#set align(left)
 
-EOF
-
-# Step 3: Shared multilingual paragraph (escaped properly)
-PARAGRAPH_TEXT=$(cat << 'EOF'
+#let example-text = [
 "Yxskaftbud, ge vår WC-zonmö IQ-hjälp! The quick brown fox jumps over a lazy dog. Vår sære Zulu fra badeøya spilte jo whist och quickstep? Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich; el veloz murciélago hindú comía feliz cardillo y kiwi.Voyez le bon whisky que je garde près de l'âtre"
 == weird glyphs
 Blå Örn jublade: 'Väx! Qvick fynd—87 jackor på 5½ dygn!' Ægir & Øyvind sörjde, men Zäta typade ðen fulla listan: {A–Z, a–z, ÅÄÖåäö ÆØæø Þþ Ðð 0–9} + symbols like ~!@\#\$%^&\*()\_+=[]{}|;:'",.<>?/ for max font test. Jumping foxes, lazy dogs, 9 quirky zebras, 12 fjords, bold glyphs & crisp ligatures unify this dazzling mix. Typo #404? Fix it by 3:45 p.m. — or pay \$999.99 in fines (excl. VAT). Kära läsare, glöm ej: 'Skriv rätt – använd alla tecken!' Så jobbar vi med typografi i världsklass. Ümlauts hum, ŋæsthetics shine, en-dashes – em-dashes — ellipses… and ¶ilcrows march! Even ☃, ☯, and ©®™ join in: a festival of forms for every script & screen. Från serif till sans, från pixel till print – typens triumf är komplett.\
@@ -34,21 +33,17 @@ Blå Örn jublade: 'Väx! Qvick fynd—87 jackor på 5½ dygn!' Ægir & Øyvind 
 #set quote(block: true)
 #quote()[“Þá kastaðu arðinum, nær jörðina, ok hlýð ormunum.”]
 #line(length: 90%)
-#set align(left)
+]
 EOF
-)
 
-# Step 4: Loop through fonts and append test blocks
+# Step 3: Loop through fonts and append test blocks
 while IFS= read -r FONT; do
   [[ -z "$FONT" ]] && continue
 
   cat >> "$OUTPUT_FILE" << EOF
-#set text(
-  font: "$FONT",
-  size: 10pt
-)
+#set text(font: "$FONT")
 = $FONT
-$PARAGRAPH_TEXT
+#example-text
 
 EOF
 

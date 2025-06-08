@@ -38,13 +38,17 @@ This project provides a Bash script to automatically generate a beautifully form
 
 ### Changing the Dummy Text
 
-Edit the `PARAGRAPH_TEXT` block inside the script. It uses:
+Edit the `example-text` block inside the script. It uses:
 
 ```bash
 cat << 'EOF'
+#let example-text = [
 your dummy text here
+]
 EOF
 ```
+
+Note that in some editors, the syntax highlighting may be confused by the brackets, but the bash code does work.
 
 This defines the paragraph text inserted for each font. You can replace it with your own multilingual or font stress test sample.
 
@@ -56,13 +60,17 @@ At the top of the generated `.typ` file is this common setup:
 #set page(columns: 2, numbering: "1/1", number-align: right)
 #set heading(numbering: "1.1")
 #set par(justify: true)
+#set text(size: 10pt)
+#set align(left)
 ```
 
 You can customize:
 
 - `columns: 1` → change number of columns
 - `justify: false` → set to `true` to enable paragraph justification
-- `numbering: "1.1"` → use `"none"` to disable heading numbers
+- `numbering: "1/1"` → use `"none"` to disable heading numbers
+- `size: 10pt` → set to the size of your choice
+- `align(left)` → change to `right` or `center`
 
 Edit these values directly in the script where the Typst header block is written.
 
